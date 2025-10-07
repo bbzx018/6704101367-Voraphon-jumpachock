@@ -15,6 +15,7 @@ export default defineConfig((ctx) => {
     ],
 
     build: {
+       distDir: 'dist/spa',
       // ✅ เพิ่ม publicPath สำหรับ deploy
       publicPath: '/',
       // ✅ เปลี่ยน router mode เป็น history (URL สวย)
